@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name=".LibraryTest"/>
+      <class name="bl.framework.testcases.TC001_LoginAndLogout"/>
+      <class name="attributelearning.TC001_LoginAndLogout"/>
+      <class name="reports.runReport"/>
+      <class name="testprojects.ZoomcarwithSeleniumbase"/>
+      <class name="testprojects.FacebookLike"/>
+      <class name="bi.framework.testdesign.NewTest"/>
+      <class name="attributelearning.CreateLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
